@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    height: 577px;
+}
+
+a {
+    color: white;
+}
+
+
+
+/* LEFT */
+.left {
+    width: 50%;
+    padding: 20px 0px 0px 15px;
+}
+
+.left_img {
+    width: 70%;
+    margin: 50px 0px 0px -170px;
+}
+
+.left_img2 {
+ border: 2px solid blue;
+ width: 35%;
+ margin: 21px 0px 0px -17px;
+ opacity: 0%;
+}
+
+/* RIGHT */
+.right {
+    width: 84%;
+    padding:  398px 62px 41px 1px;
+    background-color: #075744;
+    color: white;
+    margin-left: 737px;
+    margin-top: -746px;
+    min-width: 3%;
+    min-height: 142%;
+}
+
+.right_title {
+    font-size: 2em;
+    font-weight: 700;
+    margin-left: 7%;
+    margin-top: -29%;
+}
+
+.right_subtitle {
+    font-size: 0.8em;
+    margin-left: 7%;
+
+}
+
+.right_form {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.right_form input {
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.right_form_span_text {
+    font-size: 0.8em;
+    text-align: end;
+}
+
+.label {
+    text-align: start;
+}
+
+.input {
+    width: 100%;
+    padding: 5px 0px 5px 7px;
+    margin: 14px 0px 20px 28px;
+    background-color: white;
+}
+
+.btn {
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #079404;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding: 7px 10px 7px 10px;
+    margin: 25px 0px 10px 0px;
+    margin-left: 4%;
+}
+
+.btn:hover {
+    cursor: pointer;
+    margin-left: 4%;
+}
+
+#img-1 {
+    background-image: url('Girl\ at\ her\ laptop\ with\ a\ mug\ of\ coffee.png');
+    position: absolute; /* Defina a posição como relativa para empilhar abaixo da img-2 */
+    z-index: -1; /* Defina um valor menor para empilhar abaixo da img-2 */
+    top: -100px;
+    right: 0;
+    margin: 1px solid black;
+}
+
+#img-2 {
+    background-image: url('logoMain.png');
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    margin: 10px;
+    z-index: 1; /* Defina um valor maior para empilhar no topo */
+}
+
+.label {
+    margin-left: 4%;
+}
